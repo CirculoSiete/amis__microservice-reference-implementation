@@ -1,0 +1,13 @@
+buildscript {
+  repositories {
+    jcenter()
+    mavenLocal()
+  }
+
+  dependencies {
+    classpath 'com.circulosiete.gradle.plugins.boot.chassis:sb-service-chassis-plugin:0.0.1-SNAPSHOT'
+    
+  }
+}
+
+apply plugin: com.circulosiete.gradle.plugins.boot.chassis.ChassisPlugin
