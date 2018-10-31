@@ -5,9 +5,18 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.circulosiete.gradle.plugins.boot.chassis:sb-service-chassis-plugin:0.0.2'
+    classpath 'com.circulosiete.gradle.plugins.boot.chassis:sb-service-chassis-plugin:0.0.3'
   }
 }
 
 apply plugin: 'com.c7.service-chassis'
 
+service {
+  dockerfile {
+    from = 'fojhdvjfshjvo'
+
+    /*instructions {
+
+    }*/
+  }
+}
