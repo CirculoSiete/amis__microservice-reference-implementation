@@ -11,3 +11,12 @@ buildscript {
 
 apply plugin: 'com.c7.sb-service-chassis'
 
+service {
+  dockerfile {
+    from = 'fojhdvjfshjvo'
+
+    /*instructions {
+
+    }*/
+  }
+}
